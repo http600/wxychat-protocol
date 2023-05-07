@@ -1,9 +1,9 @@
-package muxing
+package develop
 
-type MuxingItem struct {
+type Item struct {
     Key  string `json:"key,omitempty"`
     Size int64  `json:"size,omitempty"`
 }
 
-type ProposeMuxing struct {
+type ProposeDevelop struct {
 }
